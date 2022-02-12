@@ -1,12 +1,17 @@
-body{
-  font-family: sans-serif;
-  font-size:110%;
-  background-color: white;
-}
-
 header {
   text-align: center;
   background-color: #E238EC; 
+  height: 230px;
+  }
+
+body{
+    font-family: sans-serif;
+    font-size:110%;
+    background-color: white;
+  }
+
+h2{
+  color: #E41B17;
 }
 
 footer {
