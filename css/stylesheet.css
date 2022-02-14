@@ -1,6 +1,6 @@
 header {
   text-align: center;
-  background-color: #E238EC; 
+  background-color: rgb(216, 22, 216); 
   height: 230px;
   }
 
@@ -11,8 +11,14 @@ body{
   }
 
 h2{
-  color: #E41B17;
-}
+  background-color: rgb(255, 55, 255);
+  font-size: 40px;
+  margin: 20px;
+  padding: 40px;
+  }
+  
+
+
 
 footer {
   background-color: #A74AC7;
