@@ -6,11 +6,10 @@ header {
   background-size: 41.5%;
   background-color: #5a1b6e;
   height: 18rem;
-  justify-content: center;
   margin-bottom: 1rem;
 }
 
-#profilePicture {
+#profilepicture {
   width: 9.5rem;
   border-radius: 50%;
   border: 3px solid rgb(22, 204, 22);
@@ -28,23 +27,26 @@ header {
 }
 
 .Sidebar {
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  width: 12%;
+  width: 15.5rem;
   background-color: rgb(27, 180, 27);
   border: 2px solid rgb(24, 23, 23);
-  margin-right: 1rem;
-  font-size: 105%;
+  font-size: 1.6rem;
 }
 
 #Menu {
   list-style-type: none;
   padding: 0;
+  align-items: center;
+  padding: 0.5rem;
 }
 
 body {
   font-family: sans-serif;
   font-size: 100%;
-  background-color: white;
+  background-color: rgb(235, 232, 253);
   display: flex;
   flex-direction: column;
 }
@@ -52,17 +54,18 @@ body {
 .Contents {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  max-width: 80%;
+  flex-flow: column wrap;
+  max-width: 95%;
 }
 
-#intro{
+#intro {
   border: 2.5px solid rgb(24, 23, 23);
   border-radius: 1rem;
   padding-right: 1rem;
   padding-left: 1rem;
   margin: 1rem;
   margin-top: 0rem;
+  margin-right: 0rem;
 }
 
 #Edu {
@@ -71,6 +74,7 @@ body {
   padding-right: 1rem;
   margin: 1rem;
   padding-left: 1rem;
+  margin-right: 0rem;
 }
 
 #Exp {
@@ -79,6 +83,14 @@ body {
   border: 2.5px solid rgb(24, 23, 23);
   margin: 1rem;
   padding-left: 1rem;
+  margin-right: 0rem;
+}
+
+.self {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
 }
 
 #Skill {
@@ -86,7 +98,10 @@ body {
   border-radius: 1rem;
   border: 2.5px solid rgb(24, 23, 23);
   margin: 1rem;
+  margin-bottom: 0rem;
+  margin-left: 1rem;
   padding-left: 1rem;
+  width: 50%;
 }
 
 #int {
@@ -95,7 +110,9 @@ body {
   border: 2.5px solid rgb(24, 23, 23);
   margin: 1rem;
   margin-bottom: 0rem;
+  margin-right: 0rem;
   padding-left: 1rem;
+  width: 50%;
 }
 
 footer {
@@ -105,7 +122,7 @@ footer {
   margin-top: 1rem;
 }
 
-#Details {
+#details {
   width: 3.5rem;
   height: auto;
   border: 2.5px solid rgb(24, 23, 23);
