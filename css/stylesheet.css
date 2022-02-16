@@ -1,103 +1,114 @@
 header {
   text-align: center;
   background-image: url("background.jpg");
-  background-repeat:  repeat-x;
+  background-repeat: repeat-x;
   background-position: center;
   background-size: 41.5%;
   background-color: #5a1b6e;
-  height: 300px;
+  height: 18rem;
   justify-content: center;
   margin-bottom: 1rem;
-       }
+}
 
-#profilePicture{
+#profilePicture {
   width: 9.5rem;
-  border-radius: 50%  ;
+  border-radius: 50%;
   border: 3px solid rgb(22, 204, 22);
-               }
+}
 
-#Statement{
+#Statement {
   font-size: 1.5rem;
   margin-top: 0.5rem;
-          }
+}
 
-.main{
+.main {
   display: flex;
   flex-direction: row;
   overflow: unset;
-     }
+}
 
-.Sidebar{
+.Sidebar {
   text-align: center;
   width: 12%;
   background-color: rgb(27, 180, 27);
   border: 2px solid rgb(24, 23, 23);
   margin-right: 1rem;
-        }
+  font-size: 105%;
+}
 
-#Menu{
+#Menu {
   list-style-type: none;
-  padding:0;
-     }
+  padding: 0;
+}
 
-body{
+body {
   font-family: sans-serif;
-  font-size:110%;
+  font-size: 100%;
   background-color: white;
   display: flex;
-  Flex-direction: column;
-    }
+  flex-direction: column;
+}
 
-.Contents{
+.Contents {
   display: flex;
   justify-content: center;
   flex-direction: column;
-         }
+  max-width: 80%;
+}
 
-#Edu{
+#intro{
   border: 2.5px solid rgb(24, 23, 23);
-  padding-right:1rem;
-  margin-right: 1rem;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
-  padding-left: 1rem
-    }   
+  border-radius: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin: 1rem;
+  margin-top: 0rem;
+}
 
-#Exp{
-  padding-right:1rem;
+#Edu {
+  border: 2.5px solid rgb(24, 23, 23);
+  border-radius: 1rem;
+  padding-right: 1rem;
+  margin: 1rem;
+  padding-left: 1rem;
+}
+
+#Exp {
+  padding-right: 1rem;
+  border-radius: 1rem;
   border: 2.5px solid rgb(24, 23, 23);
   margin: 1rem;
-  padding-left: 1rem
-    }
+  padding-left: 1rem;
+}
 
-#Skill{
-  padding-right:1rem;
+#Skill {
+  padding-right: 1rem;
+  border-radius: 1rem;
   border: 2.5px solid rgb(24, 23, 23);
   margin: 1rem;
-  padding-left: 1rem
-      }
+  padding-left: 1rem;
+}
 
-#Hobs{
-  padding-right:1rem;
+#int {
+  padding-right: 1rem;
+  border-radius: 1rem;
   border: 2.5px solid rgb(24, 23, 23);
   margin: 1rem;
-  padding-left: 1rem
-     }
-
-h2{
-  padding-top: 10px;
-  }
+  margin-bottom: 0rem;
+  padding-left: 1rem;
+}
 
 footer {
   background-color: #5a1b6e;
   text-align: center;
   border: 2.5px solid rgb(24, 23, 23);
   margin-top: 1rem;
-       }
+}
 
-.Details{
-   width: 5rem;
-   height: auto;
-   border: 2.5px solid rgb(24, 23, 23);
-   border-radius: 50%;
-        }
+#Details {
+  width: 3.5rem;
+  height: auto;
+  border: 2.5px solid rgb(24, 23, 23);
+  border-radius: 50%;
+  margin-right: 1rem;
+}
